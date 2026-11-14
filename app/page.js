@@ -58,16 +58,27 @@ export default function Home(){
     </section>
 
     <section id="work" className="section case-section">
-      <Reveal><div className="eyebrow">03 / SELECTED WORK</div><h2>Visa Now Immigration</h2><p className="case-sub">Meta Ads / Lead Generation / Facebook + Instagram</p></Reveal>
+      <Reveal><div className="eyebrow">03 / SELECTED WORK</div><h2>Campaign experience</h2><p className="case-sub">Meta Ads / Lead Generation / Facebook + Instagram</p></Reveal>
       <div className="case-layout">
         <Reveal><div className="case-visual"><div className="visual-label">CAMPAIGN VISUAL <span>01</span></div><div className="mock-chart"><div className="grid-lines"/><div className="mock-line"/><div className="mock-bars">{[32,45,28,58,52,76,62].map((h,i)=><span key={i} style={{height:h+"%"}}/>)}</div><div className="floating-kpi"><small>CAMPAIGN SIGNAL</small><strong>DATA → ACTION</strong></div></div><div className="mock-pills"><span>Audience</span><span>Creative</span><span>Optimization</span></div></div></Reveal>
-        <Reveal className="delay-1"><div className="case-info">{[["OBJECTIVE","Lead Generation"],["CHANNEL","Facebook + Instagram"],["ROLE","Meta Ads / Campaign Work"],["RESULTS","Verified metrics to be added"]].map(([a,b])=><div className="info-row" key={a}><small>{a}</small><strong>{b}</strong><span>↗</span></div>)}<p>Campaign screenshots, creatives and verified performance data can be added here to turn this into a complete recruiter-ready case study.</p></div></Reveal>
+        <Reveal className="delay-1"><div className="case-info">{[["OBJECTIVE","Lead Generation"],["CHANNEL","Facebook + Instagram"],["ROLE","Meta Ads / Campaign Work"],["CLIENT","Name withheld"]].map(([a,b])=><div className="info-row" key={a}><small>{a}</small><strong>{b}</strong><span>↗</span></div>)}<p>Client-identifying details are intentionally withheld. The performance snapshots below are shown separately and are not attributed to this campaign.</p></div></Reveal>
       </div>
     </section>
 
-    <section id="about" className="section about">
+
+    <section className="section metrics-section">
+      <Reveal><div className="eyebrow">04 / ANONYMIZED PERFORMANCE SNAPSHOTS</div><h2>Numbers from<br/><em>campaign dashboards.</em></h2><p className="case-sub">Figures reproduced from supplied screenshots. Client names are withheld; snapshots are not assumed to belong to one account.</p></Reveal>
+      <div className="metrics-grid">
+        <article className="metric-panel"><span className="metric-label">META ADS / SNAPSHOT A · MAR 1–6, 2025</span><div className="metric-big">7.00x <small>Average purchase ROAS</small></div><div className="metric-pairs"><div><b>₹28,452</b><small>Amount spent</small></div><div><b>6.67%</b><small>CTR (all)</small></div><div><b>₹6.44</b><small>CPC (all)</small></div><div><b>66,188</b><small>Impressions</small></div></div></article>
+        <article className="metric-panel"><span className="metric-label">META ADS / SNAPSHOT B</span><div className="metric-big">1,120 <small>Purchases reported</small></div><div className="metric-pairs"><div><b>₹14.66L</b><small>Amount spent</small></div><div><b>45.74L</b><small>Impressions</small></div><div><b>18.73L</b><small>Reach</small></div><div><b>5,811</b><small>Add to carts</small></div></div></article>
+        <article className="metric-panel"><span className="metric-label">SHOPIFY / STORE SNAPSHOT · MAR 2025</span><div className="metric-big">₹10.01L <small>Total sales</small></div><div className="metric-pairs"><div><b>507</b><small>Orders</small></div><div><b>47,349</b><small>Sessions</small></div><div><b>0.61%</b><small>Conversion rate</small></div><div><b>+38%</b><small>Sales change shown</small></div></div></article>
+        <article className="metric-panel"><span className="metric-label">SHOPIFY / STORE SNAPSHOT · APR 2025</span><div className="metric-big">₹18.36L <small>Total sales</small></div><div className="metric-pairs"><div><b>942</b><small>Orders</small></div><div><b>81,678</b><small>Sessions</small></div><div><b>0.06%</b><small>Conversion rate</small></div><div><b>+83%</b><small>Sales change shown</small></div></div></article>
+      </div>
+      <p className="metrics-note">Source: dashboard screenshots supplied for this portfolio. Client and account identities are withheld. Meta Ads and Shopify figures are separate snapshots; no combined ROAS or shared-client attribution is claimed.</p>
+    </section>
+\n    <section id="about" className="section about">
       <Reveal><div><div className="eyebrow">04 / ABOUT</div><h2>IT background.<br/><em>Paid social focus.</em></h2></div></Reveal>
-      <Reveal className="delay-1"><div className="about-copy"><p>I&apos;m Gaurav Yadav — a digital marketing professional with a Master&apos;s in IT and PGDCA, with hands-on focus on Meta advertising.</p><p>My approach is practical: understand the audience, build the campaign, test creatives and targeting, monitor the right metrics and optimize based on data.</p><div className="facts">{[["Master&apos;s","IT"],["PGDCA","Computer Applications"],["3–5 yrs","Office experience"]].map(([a,b])=><div key={a}><strong dangerouslySetInnerHTML={{__html:a}}/><span>{b}</span></div>)}</div></div></Reveal>
+      <Reveal className="delay-1"><div className="about-copy"><p>I&apos;m Gaurav Yadav — a digital marketing professional with a Master&apos;s in IT and PGDCA, with hands-on focus on Meta advertising.</p><p>My approach is practical: understand the audience, build the campaign, test creatives and targeting, monitor the right metrics and optimize based on data.</p><div className="facts">{[["Master’s","Information Technology"],["PGDCA","Computer Applications"],["3.5 yrs","Digital Marketing"]].map(([a,b])=><div key={a}><strong dangerouslySetInnerHTML={{__html:a}}/><span>{b}</span></div>)}</div></div></Reveal>
     </section>
 
     <section className="section skills">
