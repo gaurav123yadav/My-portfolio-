@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://my-portfolio-gaurav123yadav.vercel.app/sitemap.xml
